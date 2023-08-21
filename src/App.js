@@ -23,13 +23,13 @@ getperson()
   return (
     <>
     <div className='App'>
-      { persons.length? (
-        persons.map((el)=>{
+      { persons.length ?(
+        persons.map((el)=>(
           <div>
              <h1>{el.name}</h1>
              <h3>{el.email}</h3>
           </div>
-})) : (<img src=''></img>)
+))) : (<img src=''></img>)
         }
       
     </div>
